@@ -40,6 +40,7 @@ bintray_config = {k: v for k, v in project_config.items("bintray")}
 #
 
 
+
 def publish_firmware(source, target, env):
     firmware_path = str(source[0])
     firmware_name = basename(firmware_path)
